@@ -1,0 +1,3 @@
+- Implemented Score Kepper feature to enhance functionality as per the requirements of Assignment 2.
+- Refactored the README.md module for better performance and readability.
+- Made Assignment 1 and Assignment 2 clear to see
