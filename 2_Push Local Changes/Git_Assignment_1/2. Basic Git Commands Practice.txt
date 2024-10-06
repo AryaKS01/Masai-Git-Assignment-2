@@ -1,0 +1,33 @@
+Summary of Basic Git Commands Practice
+
+Task Overview
+The task involved creating a local Git repository and practicing basic Git commands, including `git init`, `git add`, and `git commit`. Below is a summary of the experience, covering the steps taken, challenges encountered, and how those issues were resolved.
+
+Step 1: Initializing the Git Repository (git init)
+I started by creating a new directory for the project and initialized it as a Git repository using the `git init` command. This set up a hidden `.git` folder in the project directory, turning it into a local repository.
+
+Command Used:
+git init
+Outcome:
+This step executed successfully without any issues.
+
+Step 2: Staging Files for Commit (git add)
+Next, I added files to the staging area using the `git add` command. I chose to add all files in the directory at once using `git add .`.
+
+Command Used:
+git add .
+Outcome:
+All files were successfully staged. I checked the status using `git status` to verify which files were added. There were no issues in this step.
+
+Step 3: Committing Changes (git commit)
+Once the files were staged, I committed the changes using the `git commit` command along with a message describing the commit. Initially, I faced an error here because I forgot to include the `-m` flag for the commit message, which resulted in an interactive editor opening unexpectedly.
+
+Command Used:
+git commit -m "Initial commit"
+Outcome:
+After resolving the issue by adding the `-m` flag, the commit was successful. The files were now saved in the local repository with the message “Initial commit.”
+
+Challenges Encountered
+- Interactive Commit Message Error:
+As mentioned earlier, when I ran `git commit` without the `-m` flag, the default text editor opened, which I didn’t expect. After researching, I learned that the `-m` flag is required to add a message inline. I then canceled the interactive commit and used the correct command with `-m` to fix the issue.
+
